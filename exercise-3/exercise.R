@@ -10,7 +10,10 @@ devtools::install_github("hadley/fueleconomy")
 
 # Require/library the fueleconomy package
 # Install (if you haven't already) and load the `dplyr`package
-
+library(fueleconomy)
+install.packages('devtools')
+library(dplyr)
+devtools::install_github("hadley/fueleconomy")
 
 # Which Accura model has the best hwy MPG in 2015? (without method chaining)
 
